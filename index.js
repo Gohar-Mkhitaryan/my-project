@@ -9,7 +9,7 @@ import mongoose from "mongoose";
 import userRouter from "./users-routers/router.js";
 import studentRouter from "./users-routers/students-router.js";
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 const json = express.json();
 app.use(json);
 
