@@ -1,0 +1,23 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Gohar Mkhitaryan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "heroku": "^7.60.2",
+    "mongoose": "^6.4.0",
+    "socket.io": "^4.5.1"
+  }
+}
