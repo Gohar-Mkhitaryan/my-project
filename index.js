@@ -20,8 +20,8 @@ app.use(json);
 const staticFiles = express.static('./frontend');
 app.use(staticFiles);
 
-app.use( userRouter );
-app.use( studentRouter );
+// app.use( userRouter );
+// app.use( studentRouter );
 
 io.on('connection', (socket) => {
     console.log('a user connected');
