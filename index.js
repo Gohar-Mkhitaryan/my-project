@@ -13,9 +13,9 @@ const port = process.env.PORT || 8000;
 const json = express.json();
 app.use(json);
 
-(async () => {
-    await mongoose.connect('mongodb://localhost:27017/myProject');
-})();
+// (async () => {
+//     await mongoose.connect('mongodb://localhost:27017/myProject');
+// })();
 
 const staticFiles = express.static('./frontend');
 app.use(staticFiles);
